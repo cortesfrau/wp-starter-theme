@@ -1,0 +1,28 @@
+//-----------------------//
+//--- Theme Variables ---//
+//-----------------------//
+
+// Spacer
+$spacer: 2rem;
+
+// Grid
+$grid-gutter-width: $spacer;
+
+// Wrapper
+$wrapper: $grid-gutter-width * 2;
+$wrapper-sm: $wrapper * .5;
+$wrapper-lg: $wrapper * 2;
+
+// Typo
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: 1rem;
+$font-size-sm: $font-size-base * .85;
+$font-size-lg: $font-size-base * 1.15;
+
+// Paragraph
+$paragraph-margin-bottom: $spacer * .5;
+
+// Headings
+$headings-margin-bottom: $spacer;
+$headings-font-family: $font-family-base;

@@ -1,0 +1,20 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import './node_modules/bootstrap/scss/bootstrap';
+
+// Fonts
+
+// FontAwesome
+$fa-font-path: '../../dist/fonts/fontawesome';
+@import './node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import './node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import './node_modules/@fortawesome/fontawesome-free/scss/solid';
+@import './node_modules/@fortawesome/fontawesome-free/scss/brands';
+
+// Utilities
+@import 'utilities/utilities';
+
+// Plugins
+@import 'plugins/plugins';
